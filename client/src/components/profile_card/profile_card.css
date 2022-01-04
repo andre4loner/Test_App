@@ -1,0 +1,99 @@
+
+.profile-card {
+  margin: 80px auto 0;
+  padding: 40px 40px;
+  width: 500px;
+  height: auto;
+  background: linear-gradient(180deg, rgba(61, 33, 106, 0.75) 0%, rgba(0, 0, 0, 0.6) 100%);
+  box-shadow: 0px 3px 40px rgba(0, 0, 0, 0.75);
+  border-radius: 50px;
+  border: 3px solid rgb(85, 48, 145);
+  z-index: 1;
+}
+
+.profile-card .avatar-name-title {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-card .avatar .outline {
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFF;
+  border-radius: 50%;
+}
+.profile-card .avatar .image {
+  width: 114px;
+  height: 114px;
+  border-radius: 50%;
+}
+
+.profile-card .name-title {
+  margin-left: 30px;
+  width: 250px;
+  justify-items: start;
+}
+.profile-card .name-title .name {
+  color: #FFFF;
+  font-weight: bold;
+  font-size: 20px;
+}
+.profile-card .name-title .title {
+  margin-top: 5px;
+  color: #FFFFFF73;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.skills-and-interests {
+  margin-top: 60px;
+}
+
+.skills-and-interests .title {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFF;
+}
+
+.skill-category {
+  margin-bottom: 35px;
+}
+
+.skill-title{
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF73;
+
+}
+
+.entries {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill {
+  margin: 10px 20px 5px 0; 
+  padding: 8px 14px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #3D216A;
+  background: #FFFF;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.no-skills {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF73;
+}

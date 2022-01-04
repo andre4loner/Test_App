@@ -1,0 +1,55 @@
+
+.user-card-container {
+  margin: 25px auto;
+}
+
+.user-card {
+  padding: 40px 40px;
+  width: 500px;
+  height: auto;
+  background: linear-gradient(180deg, rgba(61, 33, 106, 0.75) 0%, rgba(0, 0, 0, 0.6) 100%);
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.75);
+  border-radius: 50px;
+  border: 3px solid rgb(85, 48, 145);
+  z-index: 1;
+}
+.user-card .avatar-name-title {
+  margin: 0 auto;
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.user-card .avatar .outline {
+  margin: 0 auto;
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFF;
+  border-radius: 50%;
+}
+.user-card .avatar .image {
+  width: 106px;
+  height: 106px;
+  border-radius: 50%;
+}
+
+.user-card .name-title {
+  margin-left: 30px;
+  justify-items: start;
+}
+.user-card .name-title .name {
+  color: #FFFF;
+  font-weight: bold;
+  font-size: 20px;
+}
+.user-card .name-title .title {
+  margin-top: 5px;
+  color: #FFFFFF73;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+
