@@ -21,7 +21,7 @@ export default function Results() {
         "query": query.get('query'),
         "radio": query.get('radio')
       }
-      const res = await axios.post(`api/_search/`, data,
+      const res = await axios.post(`https://torre-junior-test.herokuapp.com/api/_search/`, data,
       {
         headers: {
           "Content-Type": "application/json",

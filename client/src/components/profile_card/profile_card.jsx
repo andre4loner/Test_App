@@ -17,7 +17,7 @@ export default function ProfileCard() {
   useEffect(() => {
     const fetchUser = async () => {
       try {
-        const res = await axios.get(`http://localhost:3031/api/users/${params.username}`)
+        const res = await axios.get(`https://torre-junior-test.herokuapp.com/api/users/${params.username}`)
         setUser(res.data)
 
         res.data.strengths.map((e) => {
